@@ -2,7 +2,7 @@
 
 int sumOfDigits(int);
 
-int main(void) {
+int main(int argc, const char *argv[]) {
 	int num, sum, sumx;
 	scanf("%d", &num);
 	sum = sumOfDigits(num);
