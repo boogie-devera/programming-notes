@@ -2,12 +2,14 @@
 
 int sumOfDigits(int);
 
+int sumOfDigitsX(int);
+
 int main(int argc, const char *argv[]) {
 	int num, sum, sumx;
 	scanf("%d", &num);
 	sum = sumOfDigits(num);
 	printf("%d \n", sum);
-	sumx = sumOfDigits(num);
+	sumx = sumOfDigitsX(num);
 	printf("%d \n", sumx);
 	return 0;
 }
